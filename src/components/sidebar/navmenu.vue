@@ -20,7 +20,7 @@
             <li class="sidebar-main-title">
             </li>
             <li class="sidebar-list">
-            <router-link to="/" class="sidebar-link sidebar-title">
+            <router-link to="/newConfig" class="sidebar-link sidebar-title">
               <svg class="stroke-icon">
                 <use href="@/assets/svg/icon-sprite.svg#stroke-social"></use>
               </svg>
@@ -29,7 +29,7 @@
               </svg><span>Новая конфигурация</span>
             </router-link></li>
               <li class="sidebar-list">
-                <router-link to="/" class="sidebar-link sidebar-title">
+                <router-link to="/addDevice" class="sidebar-link sidebar-title">
                 <svg class="stroke-icon">
                   <use href="@/assets/svg/icon-sprite.svg#stroke-form"></use>
                 </svg>

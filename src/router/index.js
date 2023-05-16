@@ -2,6 +2,9 @@ import {createRouter, createWebHistory} from "vue-router"
 import Body from '../components/body';
 import Default from '../pages/dashboard/defaultPage.vue';
 import login from '@/components/auth/login.vue';
+import newConfig from '@/pages/newConfg/index'
+import addDevice from '@/pages/addDevice/index'
+import Config from '@/pages/configPage.vue'
 
 const routes =[
     {
@@ -10,11 +13,25 @@ const routes =[
   
       children: [
         {
+          path: '/config',
+          name: 'config',
+          component: Config
+        },
+        {
           path: '',
           name: 'defaultRoot',
           component: Default,
         },
-  
+        {
+          path: '/newConfig',
+          name: 'newConfig',
+          component: newConfig,
+        },
+        {
+          path: '/addDevice',
+          name: 'addDevice',
+          component: addDevice,
+        }
       ]
     },
     {
