@@ -27,9 +27,11 @@
         </div>
       </div>
     </div>
-    <div style="width: 100%; display: flex; justify-content: center; margin-top: 50px">
-      <button class="btn btn-primary btn-position" type="button">Создать конфигурацию</button>
-    </div>
+    <router-link to="/config" style="width: 100%; display: flex; justify-content: center; margin-top: 50px">
+      <button class="btn btn-primary btn-position" type="button">
+          Создать конфигурацию
+      </button>
+    </router-link>
   </div>
 </template>
 
